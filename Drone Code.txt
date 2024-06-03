@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandon Doores - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brandon Doores</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <img src="https://via.placeholder.com/600x400" alt="Brandon Doores">
+            <p>Hello! I'm Brandon Doores, a certified drone pilot with a passion for aerial photography and videography. I love exploring new perspectives and capturing stunning visuals from the sky. Welcome to my personal webpage where you can learn more about my projects and how to get in touch with me.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <img src="https://via.placeholder.com/600x400" alt="Project Image">
+            <p>Here you will find a showcase of my latest projects involving drone piloting, aerial photography, and videography. Stay tuned for updates!</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <img src="https://via.placeholder.com/600x400" alt="Contact Image">
+            <p>If you would like to reach out to me, please use the contact form below. I look forward to connecting with you!</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Brandon Doores. All rights reserved.</p>
+    </footer>
+</body>
+</html>
